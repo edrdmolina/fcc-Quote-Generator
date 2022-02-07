@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#text {
+    font-size: 26px;
+}
+
+#author {
+    font-size: 22px;
+    text-align: right;
+}
+
+.quote-container {
+    width: 80%;
+    height: 60%;
+}
+
+.buttons-container {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
